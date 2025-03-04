@@ -46,15 +46,17 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 32px;
+    width: 120px;
     display: flex;
     align-items: center;
 }
 
 .logo img {
     height: 100%;
-    width: auto;
+    width: 100%;
     object-fit: contain;
+    max-width: 120px;
 }
 
 .nav-links a {
@@ -427,14 +429,16 @@ footer {
 }
 
 .footer-logo {
-    height: 50px;
+    height: 40px;
+    width: 150px;
     margin-bottom: 1.5rem;
 }
 
 .footer-logo img {
     height: 100%;
-    width: auto;
+    width: 100%;
     object-fit: contain;
+    max-width: 150px;
 }
 
 .social-links a {
@@ -507,11 +511,17 @@ footer {
     }
 
     .logo {
-        height: 32px;
+        height: 28px;
+        width: 105px;
     }
     
     .footer-logo {
-        height: 40px;
+        height: 32px;
+        width: 120px;
+    }
+    
+    .footer-logo img {
+        max-width: 120px;
     }
 }
 
