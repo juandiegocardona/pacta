@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background-image: linear-gradient(rgba(33, 48, 79, 0.6), rgba(33, 48, 79, 0.7)), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f');
+    background-image: linear-gradient(rgba(33, 48, 79, 0.6), rgba(33, 48, 79, 0.7)), url('https://unsplash.com/photos/woman-in-black-and-white-polka-dot-dress-raising-her-hands-Ya_UycADp28');
     background-size: cover;
     background-position: center;
     color: white;
