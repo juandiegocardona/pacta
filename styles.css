@@ -544,7 +544,7 @@ footer {
     }
 }
 
-/* Nuevos estilos para la sección de pasos */
+/* Nuevos estilos para la secciÃ³n de pasos */
 .steps {
     padding: 6rem 5%;
     background: var(--text-white);
@@ -620,7 +620,7 @@ footer {
     line-height: 1.6;
 }
 
-/* Nueva sección Quiénes Somos */
+/* Nueva secciÃ³n QuiÃ©nes Somos */
 .about {
     padding: 6rem 5%;
     background: var(--text-white);
@@ -733,7 +733,7 @@ footer {
     color: var(--text-body);
 }
 
-/* Agregar los estilos para la nueva sección */
+/* Agregar los estilos para la nueva secciÃ³n */
 .process-flow {
     padding: 6rem 5%;
     background: var(--text-white);
@@ -930,7 +930,7 @@ footer {
     }
 }
 
-/* Estilos para la sección de fundadores */
+/* Estilos para la secciÃ³n de fundadores */
 .founders-section {
     padding: 6rem 5%;
     background: var(--brand-primary);
@@ -1089,14 +1089,14 @@ section {
     scroll-margin-top: 80px;
 }
 
-/* Actualizar estilos de la sección de video */
+/* Actualizar estilos de la secciÃ³n de video */
 .video-section {
     padding: 6rem 5%;
     background: var(--text-white); /* Cambiar a fondo blanco */
     position: relative;
 }
 
-/* Opcional: Agregar un patrón sutil al fondo */
+/* Opcional: Agregar un patrÃ³n sutil al fondo */
 .video-section::before {
     content: '';
     position: absolute;
@@ -1116,7 +1116,7 @@ section {
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1); /* Suavizar la sombra */
     position: relative;
-    z-index: 1; /* Asegurar que el video esté por encima del patrón */
+    z-index: 1; /* Asegurar que el video estÃ© por encima del patrÃ³n */
     border: 1px solid var(--border-color); /* Agregar un borde sutil */
 }
 
@@ -1139,4 +1139,3 @@ section {
         margin-bottom: 20px;
     }
 }
-
