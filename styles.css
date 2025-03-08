@@ -527,6 +527,21 @@ footer {
         max-height: 32px;
         max-width: 140px;
     }
+
+    .about-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-card:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /* Nuevos estilos para la sección de pasos */
@@ -893,7 +908,7 @@ footer {
 
 .final-step .btn-primary:hover {
     background: var(--text-white);
-    color: var(--brand-primary);
+    color: var (--brand-primary);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -1003,7 +1018,7 @@ footer {
 }
 
 .founder-skills i {
-    color: var(--brand-alt);
+    color: var (--brand-alt);
     font-size: 0.875rem;
 }
 
@@ -1110,4 +1125,18 @@ section {
     .video-section {
         padding: 4rem 5%;
     }
-} 
+}
+@media (max-width: 768px) {
+    .about-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 400px; /* Para no ocupar todo el ancho en pantallas grandes */
+        margin-bottom: 20px;
+    }
+}
+
